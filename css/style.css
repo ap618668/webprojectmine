@@ -1,0 +1,27 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  color: blue;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-image: url(evening-55067.png);
+  padding: 25px;
+}
+.jumbotron{
+  background-image:url(barley-field-1684052.jpg);
+  opacity: 0.85;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.jumbotron:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.jumbotron p{
+  font-family: 'Righteous', cursive;
+}
+.container a{
+  font-family: 'Righteous', cursive;
+}
